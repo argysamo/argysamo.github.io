@@ -59,7 +59,7 @@
 
 @InProceedings{Samourkasidis2016c,
   author    = {Argyrios Samourkasidis and Ioannis N. Athanasiadis},
-  title     = {OGC Sensor Observation Service: Past, Present, Internet of the Things},
+  title     = {{% cite_details keyOGC Sensor Observation Service: Past, Present, Internet of the Things%}},
   booktitle = {Proc 8th Intl Congress on Environmental Modelling and Software (iEMSs)},
   year      = {2016},
   editor    = {Sauvage, S. and S{\'a}nchez-P{\'e}rez, J.M. and Rizzoli, A.E.},
