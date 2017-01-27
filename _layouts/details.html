@@ -1,0 +1,23 @@
+---
+layout: default
+no_sidebar: false
+---
+<p class="meta">
+	<a href="{{ site.url }}/publications.html">
+		<i class="home fa fa-home">
+			
+		</i>
+	</a>
+</p>
+<h1 class="large-bottom" href="{{ page.link }}">{{ page.title }}</h1>
+- {{page.entry.author}} -
+<hr>
+<h3><b>Abstract </b></h3>
+		<div id="main" class="span-{% if page.no_sidebar %}24{% else %}17{% endif %}">
+{{ page.entry.abstract }} <br />
+    </div>
+<hr>
+{% if page.entry.url != empty or page.entry.url != nil %}
+<b><a href="{{page.entry.url}}" target="_blank">PDF</a></b>
+{%endif%}
+

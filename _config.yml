@@ -1,0 +1,36 @@
+# General Jekyll Config
+highlighter: rouge
+url: http://samourkasidis.info
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+gems: ['jekyll/scholar']
+
+scholar:
+  style: springer-lecture-notes-in-computer-science
+  locale: en
+
+  sort_by: year
+  order: ascending
+
+  group_by: year
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: true
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: details.html
+
+
+
+  query: "@*"
