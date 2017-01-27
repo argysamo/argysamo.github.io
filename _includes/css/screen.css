@@ -26,6 +26,8 @@ h1.title {
   font-weight: 800;
 }
 
+ol.bibliography { list-style-type: none; padding: 0px; margin: 0px; }
+
 h1 {
   font-size: 32px;
   line-height: 40px;
@@ -68,6 +70,7 @@ table {
 
 img {
   display: block;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -264,4 +267,45 @@ i.fa-hn {
 sup {
   vertical-align: super;
   font-size: smaller;
+}
+/* This is a CSS file for CSL blocks for paper formatting. */
+
+.csl-box {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    border: 0px solid navy;
+    margin: 2px;
+    vertical-align: top;
+}
+
+.csl-year {
+
+}
+
+.csl-index  {
+    display: inline-block;
+    vertical-align: top;
+    width: 7%;
+}
+
+.csl-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 88%;
+
+}
+
+.csl-award {
+    display:block;
+    vertical-align: top;
+    color: blue;
+    font-weight: 500;
+    
+}
+    
+ol {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }

@@ -6,19 +6,20 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
 gems: ['jekyll/scholar']
 
+#springer-lecture-notes-in-computer-science
+
 scholar:
   style: springer-lecture-notes-in-computer-science
   locale: en
 
   sort_by: year
-  order: ascending
+  order: descending
 
   group_by: year
-  group_order: ascending
+  group_order: descending
 
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: bib
 
   replace_strings: true
   join_strings:    true
