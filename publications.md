@@ -1,10 +1,11 @@
 ---
-layout: post
-title: Publications
-categories:
-- blog
+bg: "tag.jpg"
+layout: page
+permalink: /publications/
+title: "Publications"
+crawlertitle: "Publications - Argyris Samourkasidis"
+summary: "Argyris Samourkasidis"
+active: publications
 ---
-{{ page.title }}
-================
 
 {% bibliography %}

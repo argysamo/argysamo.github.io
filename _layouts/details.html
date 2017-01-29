@@ -1,23 +1,15 @@
 ---
-layout: default
-no_sidebar: false
+layout: page
 ---
-<p class="meta">
-	<a href="{{ site.url }}/publications.html">
-		<i class="home fa fa-home">
-			
-		</i>
-	</a>
-</p>
-<h1 class="large-bottom" href="{{ page.link }}">{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 - {{page.entry.author}} -
-<hr>
-<h3><b>Abstract </b></h3>
-		<div id="main" class="span-{% if page.no_sidebar %}24{% else %}17{% endif %}">
+
+<h3>Abstract</h3>
+<article class="index-page" align="justify">
 {{ page.entry.abstract }} <br />
-    </div>
-<hr>
+</article>
+
 {% if page.entry.url != empty or page.entry.url != nil %}
-<b><a href="{{page.entry.url}}" target="_blank">PDF</a></b>
+<p align="center">In <a href="{{page.entry.url}}" target="_blank">PDF</a></p>
 {%endif%}
 

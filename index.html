@@ -1,15 +1,14 @@
 ---
+bg: "welcome.jpg"
 layout: default
-title: Welcome
+crawlertitle: "Welcome - Argyris Samourkasidis"
+title: "Welcome!"
+summary: "Argyris Samourkasidis"
 ---
 
-<div id="home">
-  <h2><i class="fa fa-bookmark"></i> </h2>
-  <ul id="blog-posts" class="posts">
-    {% for post in site.pages %}
-		{%if post.title == "About" or post.title == "Publications" %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	  {%endif%}
-    {% endfor %}
-  </ul>
-</div>
+
+  <article class="index-page">
+    <h2><img class="img-circle" src="logo.png" alt="argyris"></h2>
+	My name is Argyris Samourkasidis and I am a PhD student in Electrical and Computer Engineering department, with Democritus University of Thrace (DUTH).
+	
+  </article>
