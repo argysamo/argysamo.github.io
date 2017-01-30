@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Argyrios Samourkasidis</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>This is Argyrios (Argyris) Samourkasidis personal website. Argyris is currently pursuing his PhD. He is a researcher and has worked for  a FP7 European project (MODEXTREME). He is affiliated with Democritus University of Thrace (DUTH) and Wageningen University in the Netherlands. He is a travel and computer enthousiast, contributing in Python projects in his free time.
 </description>
     <link>http://samourkasidis.info/</link>
     <atom:link href="http://samourkasidis.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Jan 2017 09:11:56 +0200</pubDate>
-    <lastBuildDate>Mon, 30 Jan 2017 09:11:56 +0200</lastBuildDate>
+    <pubDate>Mon, 30 Jan 2017 09:26:00 +0200</pubDate>
+    <lastBuildDate>Mon, 30 Jan 2017 09:26:00 +0200</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>
