@@ -4,10 +4,10 @@
     <title>Argyrios Samourkasidis</title>
     <description>This is Argyrios (Argyris) Samourkasidis personal website. Argyris is currently pursuing his PhD. He is a researcher and has worked for  a FP7 European project (MODEXTREME). He is affiliated with Democritus University of Thrace (DUTH) and Wageningen University in the Netherlands. He is a travel and computer enthousiast, contributing in Python projects in his free time.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Apr 2017 16:43:42 +0300</pubDate>
-    <lastBuildDate>Tue, 11 Apr 2017 16:43:42 +0300</lastBuildDate>
+    <link>http://www.samourkasidis.info/</link>
+    <atom:link href="http://www.samourkasidis.info/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Apr 2017 16:49:46 +0300</pubDate>
+    <lastBuildDate>Tue, 11 Apr 2017 16:49:46 +0300</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>
