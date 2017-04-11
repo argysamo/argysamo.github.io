@@ -17,7 +17,7 @@ description: > # this means to ignore newlines until "baseurl:"
   in his free time.
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
-url: "http://samourkasidis.info" # the base hostname & protocol for your site
+url: "http://www.samourkasidis.info" # the base hostname & protocol for your site
 twitter_username: argydis
 github_username:  argysamo
 disqus_username:

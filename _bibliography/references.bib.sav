@@ -88,4 +88,37 @@
   url       = {http://dx.doi.org/10.3390/electronics6010001},
 }
 
+@Article{Klein2017,
+  author    = {Tommy Klein and Argyrios Samourkasidis and Ioannis N. Athanasiadis and Gianni Bellocchi and Pierluigi Calanca},
+  title     = {webXTREME: R-based web tool for calculating agroclimatic indices of extreme events},
+  journal   = {Computers and Electronics in Agriculture},
+  year      = {2017},
+  volume    = {136},
+  pages     = {111 - 116},
+  issn      = {0168-1699},
+  abstract  = {We document the release of webXTREME, a new online tool for the evaluation of indices of climatic extremes (extreme temperatures and aridity) having impact on agricultural production. The tool is globally available and can be operated with either observed weather data or time series representing future climatic conditions. It is thus suitable for risk evaluation under climate change. webXTREME was implemented using Shiny, an open-source programming framework for creating web applications on the basis of the R Statistical Language.},
+  doi       = {http://dx.doi.org/10.1016/j.compag.2017.03.002},
+  keywords  = {Agricultural production, Extreme weather events, Agroclimatic indices, Web tool, R Statistical Language and Shiny },
+  timestamp = {2017-03-22},
+  url       = {https://authors.elsevier.com/a/1UjmKcFCS7utq},
+}
+
+@InProceedings{Samourkasidis2016,
+  author       = {Samourkasidis, Argyrios and Athanasiadis, Ioannis N},
+  title        = {A Sensor Observation Service Extension for Internet of Things},
+  booktitle    = {International Workshop on Interoperability and Open-Source Solutions ({InterOSS-IoT})},
+  year         = {2017},
+  editor       = {Podnar {\v Z}arko I. and Broering A. and Soursos S. and Serrano M.},
+  volume       = {10218},
+  series       = {Lecture Notes in Computer Science (LNCS)},
+  pages        = {56--71},
+  organization = {Springer, Cham},
+  publisher    = {Springer, Cham},
+  abstract     = {This work contributes towards extending OGC Sensor Observation Service to become ready for Internet of Things, i.e. can be employed by devices with limited capabilities or opportunistic internet connection. We present an extension based on progressive data transmission, which by-design facilitates selective data harvesting and disruption-tolerant communication. The extension economizes resources, while respects the SOS specification requirement that the client should have no a-priori knowledge of the server capabilities. Empirical experiments in two case studies demonstrate that the extension adds little overhead and may lead to significant performance improvements in certain cases, as for irregular timeseries. Also, the proposed extension is not invasive and backwards compatible with legacy clients.},
+  doi          = {10.1007/978-3-319-56877-5_4},
+  owner        = {argyris},
+  timestamp    = {2017-04-11},
+  url          = {http://link.springer.com/chapter/10.1007/978-3-319-56877-5_4},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
