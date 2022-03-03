@@ -55,7 +55,7 @@ sass:
 
 images: '/assets/images'
 
-gems: ['jekyll/scholar', 'jekyll-twitter-plugin']
+plugins: ['jekyll/scholar', 'jekyll-twitter-plugin']
 scholar:
   style: assets/mine.csl
   locale: en
