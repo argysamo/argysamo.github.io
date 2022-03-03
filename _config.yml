@@ -10,17 +10,25 @@ title: Argyrios Samourkasidis
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   This is Argyrios (Argyris) Samourkasidis personal website. Argyris
-  is currently pursuing his PhD. He is a researcher and has worked for 
+  is a DevOps engineer, a researcher and has worked for 
   a FP7 European project (MODEXTREME). He is affiliated with Democritus
-  University of Thrace (DUTH) and Wageningen University in the Netherlands.
+  University of Thrace (DUTH), and Wageningen University and ING in the Netherlands.
   He is a travel and computer enthousiast, contributing in Python projects
   in his free time.
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
-url: "http://www.samourkasidis.info" # the base hostname & protocol for your site
+url: "https://www.samourkasidis.info" # the base hostname & protocol for your site
 twitter_username: argydis
 github_username:  argysamo
-disqus_username:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Build settings
 markdown: kramdown
@@ -55,25 +63,22 @@ scholar:
   sort_by: year
   order: descending
 
-  group_by: year
+  group_by: type
   group_order: descending
 
   source: ./_bibliography
   bibliography: references.bib
-  bibliography_template: "{{ reference | replace_first: 'A. Samourkasidis', '<b>A. Samourkasidis</b>'}}"
-  reference_tagname: article
+  bibliography_template: bib
+  reference_tagname: dd
 
   replace_strings: true
   join_strings:    true
 
-  use_raw_bibtex_entry: true
   bibtex_filters:
   - superscript
   - latex
 
   details_dir:    bibliography
-  details_layout: details.html
-
-
+  details_link: ""
 
   query: "@*"

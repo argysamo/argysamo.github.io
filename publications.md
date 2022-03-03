@@ -4,7 +4,7 @@ layout: page
 permalink: /publications/
 title: "Publications"
 crawlertitle: "Publications - Argyris Samourkasidis"
-summary: "Argyris Samourkasidis"
+summary: "Nyhavn, Copenhagen"
 active: publications
 ---
 

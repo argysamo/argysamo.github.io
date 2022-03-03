@@ -1,4 +1,33 @@
 ---
 ---
+{% capture my_variable %}<a href="../bibliography/{{key}}.html">{{entry.title}}</a>{% endcapture %}
 
-{{ reference }}
+{% if entry.type == "article" %}
+    {% assign ref_type = "J" %}
+{% elsif entry.type == "inproceedings" %}
+    {% assign ref_type = "C" %}
+{% elsif entry.type == "phdthesis" %}
+    {% assign ref_type = "P" %}
+{% endif %}
+<dl class="dl-horizontal">
+	<dt><button class="button0" onclick="toggleBibtex{{entry.key}}()">{{ ref_type }}.{{index}}</button></dt>
+	{{ reference | replace_first: 'A. Samourkasidis', '<b>A. Samourkasidis</b>' | replace: entry.title, my_variable}}
+	<!-- {% if entry.doi %}
+	<span class="__dimensions_badge_embed__" data-doi="{{entry.doi}}" data-style="small_rectangle"></span>
+	{%endif%} -->
+</dl>
+<div id="a{{entry.key}}" style="display: none;">
+<pre>{{entry.bibtex}}</pre>
+</div>
+
+
+<script>
+function toggleBibtex{{entry.key}}(parameter) {
+    var x= document.getElementById('a{{entry.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>

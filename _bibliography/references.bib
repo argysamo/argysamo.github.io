@@ -6,10 +6,10 @@
   booktitle  = {Proc 7th Intl Congress on Environmental Modelling and Software, International Environmental Modelling and Software Society (iEMSs)},
   year       = {2014},
   abstract   = {We present our explorations towards a low-cost solution for creating an autonomous environmental data archival system. AiRCHIVE is a software platform for providing open access to sensor data with different ways, that account for machine interoperability. It is built with Raspberry Pi, a low-cost, pocket-size computer, and Air Pi a low-cost amateur sensory kit for air quality monitoring. Raspberry Pi with AirPi allowed us to easily capture raw sensor data and store them in a local database, and with AiRCHIVE we deployed “on sensor” a web server that provides with a set of services for data preprocessing and dissemination, including an implementation of OGC/SOS services and the OAI/PMH harvesting protocol.},
+  comment    = {r},
   file       = {Samourkasidis2014.pdf:Samourkasidis2014.pdf:PDF},
   keywords   = {read},
   owner      = {argysamo},
-  review     = {r},
   timestamp  = {2017-01-27},
   url        = {http://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1188&context=iemssconference},
 }
@@ -27,19 +27,18 @@
 
 @InProceedings{Papoutsoglou2015,
   author        = {Papoutsoglou, Evangelia and Samourkasidis, Argyrios and Tsai, Ming-Yi and Davey, Mark and Ineichen, Alex and Eeftens, Marloes and Athanasiadis, Ioannis N},
-  title         = {Towards an air pollution health study data management system-A case study from a smoky Swiss railway},
+  title         = {{Towards an air pollution health study data management system-A case study from a smoky Swiss railway}},
   booktitle     = {Adjunct Proc. 29th EnviroInfo and 3rd ICT4S Conference},
   year          = {2015},
   editor        = {Vivian Kvist Johannsen and Stefan Jensen and Volker Wohlgemuth and Chris Preist and Elina Eriksson},
-  pages         = {65-74},
+  pages         = {65--74},
   publisher     = {University of Copenhagen},
   note          = {ISBN 978-87-7903-712-0},
   __markedentry = {[argyris:1]},
-  abstract      = {In air pollution health studies, measurements are conducted intensively but only periodically at numerous locations in a variety of environments (indoors, outdoors, personal). Often a variety of instruments are used to measure various pollutants ranging from gases (eg, CO, NO2, O3, VOCs, PAHs) to particulate matter (eg, particles smaller than 2.5um: PM2.5, PM10, ultrafine particles: UFP), and including other environmental parameters such as temperature, relative humidity, GPS position. As a result it is always a significant challenge for researchers to effectively QA/QC, combine, and archive these data so as to reliably assess people’s exposure to poor air quality. With the CEDAR system presented here we aim to provide a solution to this problem by employing a platform using templates for easily reading custom formatted files, apply rules for filtering and quality checking measurements, and ultimately publishing them as services on the web. The system is demonstrated for the case an air quality project conducted in a Swiss railway station where smoking is allowed.},
   file          = {Papoutsoglou2015.pdf:Papoutsoglou2015.pdf:PDF},
+  groups        = {argyris:1},
   owner         = {argyris},
-  timestamp     = {2017-01-26},
-  url           = {http://enviroinfo.eu/sites/default/files/pdfs/vol9073/0065.pdf},
+  timestamp     = {2016-12-19},
 }
 
 @InProceedings{Klein2016,
@@ -55,6 +54,7 @@
   isbn          = {978-88-9035-745-9},
   owner         = {argyris},
   timestamp     = {2017-01-26},
+  doi			= {10.1016/j.compag.2017.03.002},
   url           = {http://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1351&context=iemssconference},
 }
 
@@ -97,10 +97,10 @@
   pages     = {111 - 116},
   issn      = {0168-1699},
   abstract  = {We document the release of webXTREME, a new online tool for the evaluation of indices of climatic extremes (extreme temperatures and aridity) having impact on agricultural production. The tool is globally available and can be operated with either observed weather data or time series representing future climatic conditions. It is thus suitable for risk evaluation under climate change. webXTREME was implemented using Shiny, an open-source programming framework for creating web applications on the basis of the R Statistical Language.},
-  doi       = {http://dx.doi.org/10.1016/j.compag.2017.03.002},
+  doi       = {10.1016/j.compag.2017.03.002},
+  file      = {Klein2017.pdf:Klein2017.pdf:PDF},
   keywords  = {Agricultural production, Extreme weather events, Agroclimatic indices, Web tool, R Statistical Language and Shiny },
-  timestamp = {2017-03-22},
-  url       = {https://authors.elsevier.com/a/1UjmKcFCS7utq},
+  timestamp = {2018-11-25},
 }
 
 @InProceedings{Samourkasidis2016,
@@ -119,6 +119,60 @@
   owner        = {argyris},
   timestamp    = {2017-04-11},
   url          = {http://link.springer.com/chapter/10.1007/978-3-319-56877-5_4},
+}
+
+@Article{Samourkasidis2018,
+  author    = {Argyrios Samourkasidis and Evangelia Papoutsoglou and Ioannis N. Athanasiadis},
+  title     = {A template framework for environmental timeseries data acquisition},
+  journal   = {Environmental Modelling \& Software},
+  year      = {2018},
+  volume    = {117},
+  pages     = {237--249},
+  issn      = {1364-8152},
+  abstract  = {Environmental timeseries data variety is exploding in the Internet of Things era, making data reuse a very demanding task. Data acquisition and integration remains a laborious step of the environmental data lifecycle. Environmental data heterogeneity is a persistent issue, as data are becoming available through different protocols and stored under diverse, custom formats. In this work, we deal with syntactic heterogeneity in environmental timeseries data. Our approach is based on describing different dataset syntaxes using abstract representations, called templates. We designed and implemented EDAM (Environmental Data Acquisition Module), a template framework that facilitate timeseries data acquisition and integration. EDAM templates are written using programming language agnostic semantics, and can be reused both for input and output, thus enabling data reuse via transformations accross different formats. We demonstrate EDAM generality in seven case studies, which involve scraping online data, extracting observations from a relational database, or aggregating historical timeseries stored in local files. Case studies span different environmental sciences domains, including meteorology, agriculture, urban air quality and hydrology. We also demonstrate EDAM for data dissemination, as instructed by output templates. We identified several syntactic interoperability challenges though the cases studies, that include managing with differences in formatting observables, temporal and spatial references, and metadata documentation, and addressed them with EDAM. EDAM implementation has been released under an open-source license.},
+  doi       = {10.1016/j.envsoft.2018.10.009},
+  keywords  = {Environmental timeseries, Internet of things, Syntactic interoperability, Data acquisition, Templates, Big data},
+  timestamp = {2018-12-20},
+}
+
+@Article{Samourkasidis2020,
+  author   = {Argyrios Samourkasidis and Ioannis N. Athanasiadis},
+  title    = {A semantic approach for timeseries data fusion},
+  journal  = {Computers and Electronics in Agriculture},
+  year     = {2020},
+  volume   = {169},
+  pages    = {105--171},
+  issn     = {0168-1699},
+  abstract = {The data deluge following the rise of Internet of Things contributes towards the creation of non-reusable data silos. Especially in the environmental sciences domain, syntactic and semantic heterogeneity hinders data re-usability as most times manual labour and domain expertise is required. Both the different syntaxes under which environmental timeseries are formatted and the implicit semantics which are used to describe them contribute to this end. Usually, the real meaning of data is obscured in a combination of short data labels, titles and various value codes, that require domain or institutional knowledge to decipher. The FAIR data principles for scientific data sharing are stewardship offer a framework based on community-adopted metadata. In this work, we present the Environmental Data Acquisition Module (EDAM) which focuses on data interoperability and reuse, and deals with syntactic and semantic heterogeneity using a template approach. Data curators draft templates to describe in an abstract fashion the syntax of the timeseries datasets they want to acquire or disseminate. They complement each template with a metadata file, which is used to annotate observables and their properties (including physical quantities and units of measurement) with terms from an ontology. EDAM employs a reasoner to infer compatibility among syntactically and semantically heterogeneous datasets, and enables timeseries, format and units of measurement transformation on-the-fly. Our approach utilizes a local ontology to store metadata about datasets, which enables EDAM to acquire and transform datasets which were originally stored with different semantics and syntaxes. We demonstrate EDAM in a case study where we transform meteorological input files of four agricultural models. Our approach, allows to cut across environmental data silos and facilitate timeseries reusability, as it enables users to (a) discover datasets in other formats, (b) transform them and (c) reuse them in their scientific workflows. This directly contributes to the toolshed for FAIR data management in environmental sciences. EDAM implementation has been released under an open-source license.},
+  doi      = {10.1016/j.compag.2019.105171},
+  keywords = {Environmental timeseries, Internet of Things, Legacy data, Semantic heterogeneity, Templates, FAIR data, Reasoning, Interoperability, Data reuse, APSIM, AgMIP, DSSAT, WOFOST},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0168169919318514},
+}
+
+@InProceedings{Samourkasidis2018a,
+  author    = {Argyrios Samourkasidis and Ioannis N Athanasiadis},
+  title     = {Towards a semantic approach for environmental timeseries data re-usability},
+  booktitle = {{Scientific Symposium FAIR Data Sciences for Green Life Sciences}},
+  year      = {2018},
+  doi       = {10.18174/FAIRdata2018.16272},
+}
+
+@InProceedings{Samourkasidis2018b,
+  author    = {Argyrios Samourkasidis and Ioannis N. Athanasiadis},
+  title     = {{Environmental timeseries lifecycle in the IoT era}},
+  booktitle = {{In Proceedings of the 9th Intl. Congress on Environmental Modelling and Software (iEMSs)}},
+  year      = {2018},
+  editor    = {Mazdak Arabi and Olaf David and Jack Carlson and Daniel P. Ames},
+}
+
+@PhdThesis{Samourkasidis2019,
+  author = {Argyrios Samourkasidis},
+  title  = {{Environmental timeseries lifecycle in the Internet of Things era : Lowering e-science barriers}},
+  school = {Wageningen University},
+  year   = {2019},
+  type   = {phdthesis},
+  month  = oct,
+  doi    = {10.18174/497755},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
