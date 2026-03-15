@@ -10,7 +10,7 @@ active: posts
 
 ## Posts are baking
 
-Posts about various topics are going to be published "soon". 
+Posts about various topics are going to be published "soon"
 
 <!-- <ul>
   {% for post in site.posts %}
